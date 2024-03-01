@@ -81,12 +81,17 @@ img {
 }
 
 /* Navigation Styles */
+
 .navbar {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: var(--text-color);
-    margin-left: 80rem;
     font-weight: 700;
+    display: flex; 
+    gap: 35px; 
+    padding-left: 60rem;
+    margin: 4rem;
 }
+
 .navbar a:hover,
 .navbar a.active {
     color: var(--text-color);
